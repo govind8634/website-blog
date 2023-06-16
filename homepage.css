@@ -1,0 +1,176 @@
+.profilelogo{
+    width: 25px;
+    border-radius: 100%;
+    /* float: right; */
+}
+
+/* body.homebody {
+  cursor: url(‘mouth-cursor.png’), auto;
+} */
+
+.profile{
+    list-style-type: none;
+    margin: 4px;
+    margin-right: 15px;
+}
+
+.div5{
+    border: 1px solid grey;
+    border-width: 5px;
+  }
+
+  .shopping{
+    width: 100%;
+  }
+
+  .spanone{
+    background-color: white;
+    color: black;
+    height: fit-content;
+    display: grid;
+  }
+
+  .spanthree{
+    margin-left: 10px;
+  }
+
+  .rupeelogo{
+    width: 10px;
+  }
+
+  .div5shop{
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 60px;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    float: left;
+    margin: 10px 0px 0px 20px;
+  }
+
+  .div5shop:hover{
+    color: black;
+    background-color: #04AA6D;
+    box-shadow: 5px 5px 5px 5px black;
+  }
+
+  .whataap{
+    float: right;
+    right: 20px;
+    padding: 10px;
+    color: green;
+  }
+
+  .whataaplogo{
+    width: 35px;
+  }
+
+  .img-fluid{
+    background-size: cover;
+    width: 100%;
+  }
+
+  .discount_banner{
+    background-color: green;
+    padding: 10px;
+    color: white;
+  }
+
+  .main-image{
+    background-image: url(contactimg.jpg);
+    width: 100%;
+    background-size: cover;
+  }
+
+  .p-3{
+    padding-top: 0rem!important;
+  }
+
+  .container{
+    margin: 0px;
+  }
+
+    .aboutpage{
+      background-image: url(aboutimg.jpg);
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .collapse ul li a:hover{
+      background-color: green;
+    }
+
+  .navbar{
+    background-color: white;
+  }
+
+  .my-5{
+    width: 100%;
+    background-size: cover;
+  }
+
+  .shopping:hover{
+    border: 7px solid white;
+    transition: .5s;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 10px;
+  }
+
+  .locationpng1{
+    margin-right: 20px;
+    width: 20px;
+  }
+  
+.div5shop:hover{
+  color: black;
+  background-color: #04AA6D;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+  .footer_social{
+    margin-right:20px;
+    width: 30px;
+    border-radius: 100%;
+  }
+
+  .bodycursor{
+    cursor: url(click.png);
+  }
+
+  @media (min-width: 499px) {
+    .container, .container-sm {
+        max-width: 100%;
+    }
+}
+
+  @media (min-width: 599px) {
+    .container, .container-sm {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 100%;
+    }
+} 
