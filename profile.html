@@ -6,32 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geetfashionprofile</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="website icon" type="png" href="geetlogo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
 </head>
 
-<body>
-    <div class="div1">
-        <ul class="ul1">
-            <li> <a class="a1 aone" href="http://127.0.0.1:5500/geetfashion.html"> <img class="homelogo" src="home.png" alt="homelogo"> Home </a> </li>
-            <li> <a class="a1" href="http://127.0.0.1:5500/contactpage.html"><img class="contactlogo" src="contactlogo.jpg" alt="contactlogo"> Contact </a> </li>
-            <li> <a class="a1" href="http://127.0.0.1:5500/about.html">About</a> </li>
-            <li> <a class="a1" href=""> Fashion </a> </li>
-            <div class="div2">
-                <div class="search" href=""><input type="text" placeholder="Search..."> <input type="submit"></div>
-            </div>
-            <div class="navbarsocial">
-                <a href="https://www.facebook.com/govindmahawar8634" target="_blank"><img class="facebooklogo facebooklogo1" src="f.png" alt="facebooklogo"></a>
-                <a href="https://www.instagram.com/govindmahawar8634/" target="_blank"><img class="facebooklogo" src="instagramlogo.jpg" alt="instagramlogo"></a>
-                <a href=""><img class="facebooklogo" src="twitterlogo.jpg" alt="twitterlogo"></a>
-                <a href=""><img class="facebooklogo" src="storelogo.jpg" alt="storelogo"></a>
-                <a href="http://127.0.0.1:5500/profile.html"><img class="facebooklogo" src="profilelogo.png" alt="profilelogo"></a>
-            </div>
-        </ul>
-    </div>
+<body class="profileimg">
+
+  <style>
+    .profileimg{
+ background-image: url(profileback.jpg);
+}
+  </style>
+
+  <!-- <img class="profileimg" src="profileback.jpg" alt=""> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/geetfashionhomepage.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://localhost/php/geetfashionimage/geet_f_contact.php" target="_blank">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/about.html" target="_blank">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Fashion</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <li class="profile">
+                  <a class="" href="http://127.0.0.1:5500/profile.html" target="_blank"><img src="profilelogo.png" alt="profilelogo" class="profilelogo"></a>
+              </li>
+              <li class="profile">
+                  <a class="" href="https://www.instagram.com/govindmahawar8634/" target="_blank"><img src="instagramlogo.jpg" alt="instagramlogo" class="profilelogo"></a>
+              </li>
+              <li class="profile">
+                  <a href="https://www.facebook.com/govindmahawar8634" target="_blank"><img src="f.png" alt="facebook" class="profilelogo"></a>
+              </li>
+              <li class="profile">
+              <img src="daynightlogo.png" alt="daynightlogo" class="profilelogo"></a>
+              </li>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
 
 <div class="profilediv">
-    <img class="profileimg" src="profileback.jpg" alt="">
+    <!-- <img class="profileimg" src="profileback.jpg" alt=""> -->
     <div class="logingpage">
         <div class="button-box">
             <div id="btn"></div>
