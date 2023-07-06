@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geet Fashion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Geet loan</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <link rel="stylesheet" href="home.css"> -->
+  <script src="home.js"></script>
+</head>
+
+<body>
+
+  <style>
+    *, ::after, ::before {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar-toggler{
+  width: fit-content;
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+.nav-end{
+    text-decoration: none;
+    background-color: rgb(61, 61, 245);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.nav-logo{
+  width: 200px;
+}
+
+.container-fluid{
+    background-color: white;
+    /* background-color: blue; */
+    position: fixed;
+    top: 0px;
+    /* height: 60px; */
+    border-bottom: 1px solid black;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.hero-pane h2 {
+    color: #0f63ac;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.hero-pane p {
+  font-size: 20px;
+  line-height: 35px;
+  color: #031728;
+}
+
+  .mt-5 {
+    margin-top: 7rem!important;
+  }
+
+  .parner-now{
+    background-color: #285f90;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .parner-now:hover{
+    background-color: #112c44;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .back-img2{
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .small-border{
+    border: 1px solid blue;
+    width: 1px;
+  }
+
+  
+.box-cols ul li{
+  border: 1px solid #2376bf80;
+  border-radius: 10px;
+  text-align: center;
+  padding: 37px 15px;
+  min-height: 250px;
+  width: 170px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+.box-cols ul li:hover{
+  border: 1px solid #01040780;
+  border-radius: 10px;
+  text-align: center;
+  padding: 37px 15px;
+  min-height: 250px;
+  width: 170px;
+  transition: border-width .9s linear;
+  box-shadow: 0px 20px 44px #0000001a;
+  background: #fff;
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+.box-cols{
+  width: fit-content;
+  margin: auto;
+}
+
+.deal-icon{
+  width: 137px;
+}
+
+.box-cols ul li a{
+  text-decoration: none;
+}
+
+/* .back-blue-img{
+  background-image: url(backimg2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.back-blue-img h1{
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.back-blue-img span{
+  border: 1px solid red;
+  width: 80px;
+  height: 180px;
+  padding: 50px;
+  position: absolute;
+  /* left: 100px; */
+/* } */
+
+/* .back-blue-img .div2{
+    position: absolute;
+    content: "";
+    background-color: inherit;
+    transform: rotate(-60deg);
+    box-shadow: 0px 9px 24px #0000001a;
+}
+
+.back-blue-img .div3{
+    position: absolute;
+    content: "";
+    background-color: inherit;
+    transform: rotate(60deg);
+    overflow: hidden;
+    box-shadow: 0px 9px 24px #0000001a;
+}
+
+.position-div1{
+  margin-top: 100px;
+  width: fit-content;
+  position: absolute;
+  top: 207px;
+  left: 0px; */
+/* }
+
+.position-div2{
+  margin-top: 100px;
+  width: fit-content;
+  position: absolute;
+  left: 156px;
+} */
+/* 
+.position-div3{
+  margin-top: 100px;
+  width: fit-content;
+  position: absolute;
+  top: 295px;
+  left: 156px;
+} */
+
+/* .position-div4{
+  margin-top: 100px;
+  width: fit-content;
+  position: absolute;
+  top: 207px;
+  left: 310px;
+} */
+
+.advisor-name h1 {
+  color: #0f63ac;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.advisor-div1{
+  width: 100px;
+  margin: auto;
+}
+
+.advisor-div1 span{
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid blue;
+  width: 300px;
+}
+
+.advisor-name p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.all-bank{
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.all-bank:hover{
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  transition: border-width .9s linear;
+  box-shadow: 0px 20px 44px #0000001a;
+  background: #fff;
+}
+
+.Certificates{
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.Certificates.Certificates1:hover{
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  transition: border-width .9s linear;
+  box-shadow: 0px 20px 44px #0000001a;
+  background: #fff;
+}
+
+.Certificates1{
+  border: 1px solid grey;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.Certificates1 img{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Certificates img{
+  padding: 30px;
+  width: 210px;
+  vertical-align: middle;
+}
+
+.all-bank img{
+  padding: 45px;
+}
+  </style>
+
+  <!-- <div class="navbar">
+        <ul>
+            <li><img src="logo.png" alt="logo"></li>
+            <li class="nav-right">Home</li>
+            <li class="nav-right">About Us</li>
+            <li class="nav-right">Contact</li>
+            <li class="nav-right"><a href="#">BECOME OUR PARTNER</a></li>
+        </ul>
+    </div> -->
+
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="nav-logo" src="logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <a class="navbar-brand nav-end" href="#">BECOME OUR PARTNER</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Example Code -->
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-6 hero-pane">
+        <h2>We are Andromeda, India’s Largest Loan Distributor</h2>
+        <p>Join Andromeda as a Financial Advisor. Be a part of a large and growing family of 25,000+ partners...</p>
+      </div>
+      <div class="col-sm-6">
+        <img class="slide-img" src="slide1.jpeg" alt="slideimage">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="back-img2 hero-pane">
+    <div class="opicity-non">
+      <h2>The Story Of Andromeda In Numbers.</h2>
+      <span class="small-border"></span>
+      <p>Over Rs. 50,000 CR loans disbursed annually.</p>
+    </div>
+  </div>
+
+
+
+  <div class="box-cols">
+    <ul>
+      <li>
+        <a href="#">
+          <img src="map.png" alt="map">
+          Cities
+          <h1>100+</h1>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img src="branch.png" alt="branchs">
+          Branches
+          <h1>1k</h1>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img src="empolyes.png" alt="empolyes">
+          Employees
+          <h1>3k</h1>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img class="deal-icon" src="deal.jpg" alt="deal">
+          Financial Advisors
+          <h1>25k</h1>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <img src="Lending Partners.png" alt="Lending Partners">
+          Lending Partners
+          <h1>125k</h1>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- <div class="back-blue-img">
+      <h1>The Andromeda Edge</h1>
+      <div class="position-main-div">
+        <div class="position-div1">
+          <span>Best-in-class & Prompt Payouts</span>
+          <span class="div2"></span>
+          <span class="div3"></span>
+        </div>
+
+        <div class="position-div2">
+          <span></span>
+          <span class="div2"></span>
+          <span class="div3"></span>
+        </div>
+
+        <div class="position-div3">
+          <span></span>
+          <span class="div2"></span>
+          <span class="div3"></span>
+        </div>
+
+        <div class="position-div4">
+          <span></span>
+          <span class="div2"></span>
+          <span class="div3"></span>
+        </div>
+      </div>
+    </div> -->
+
+
+  <div class="advisor-name">
+    <h1>Highest Standards. Happiest Partners</h1>
+    <div class="advisor-div1"><span>__________________</span></div>
+    <p>Our partners are our strength</p>
+  </div>
+
+
+
+  <div class="slideshow-container">
+
+    <!-- <div class="mySlides fade"> -->
+    <!-- <div class="numbertext">1 / 3</div> -->
+    <!-- <img src="partners-slide1.jpeg" style="width:100%"> -->
+    <!-- <div class="text"></div> -->
+    <!-- </div> -->
+
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">2 / 3</div> -->
+      <img src="partners-slide2.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">3 / 3</div> -->
+      <img src="partners-slide3.jpeg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); //Change image every 2 seconds
+    }
+  </script>
+
+
+  <div class="advisor-name">
+    <h1>Brands who Trust Us</h1>
+    <div class="advisor-div1"><span>__________________</span></div>
+    <p>We are amongst the top 3 most-preferred channel partners for loans <br>for India's widest network of Banks,
+      NBFCs, and Fintech</p>
+  </div>
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/hdfc.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/kotak.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/FULLERTON-HOME.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDIA-INFOLINE.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDIABULLS.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/BANK-OF-BARODA.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/PIRAMAL-HOUSING-FINANCE.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/SHRIRAM-CITY.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/AADHAR-HOUSING.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/JANA-SMALL.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="all-bank">
+          <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+        </div>
+      </div>
+
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/INDUSIND.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/LT-FINANCE.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/SHRIRAM-HOUSING.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/FEDERAL-BANK.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/AXIS-FINANCE.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/dcb.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/DEUTSCHE-BANK.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/chola.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/PNB.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/BAJAJ-HOUSING.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/ADITYA-BIRLA-CAPITAL-e1660310165487.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/YES-BANK.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/HDFC-LTD.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+              <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/TATA-CAPITAL.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/TATA-CAPITAL.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/TATA-HOUSING.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/IDFC-FIRST.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/icici-bank.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/axis-bank.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/axis-bank.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/axis-bank.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="advisor-name">
+            <h1>Our Certificates & Awards</h1>
+            <div class="advisor-div1"><span>__________________</span></div>
+            <p>Andromeda's achievements so far.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="Certificates1">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/08/FEATURED-AWARD-01.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="Certificates">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2022/07/Feature-award-img-02.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="advisor-name">
+      <h1>In News & Media</h1>
+      <div class="advisor-div1"><span>__________________</span></div>
+      <p>Know what we are up to, as reported by your favourite news outlets.</p>
+    </div>
+
+
+    <div class="advisor-name">
+      <h1>Advertisements</h1>
+      <div class="advisor-div1"><span>__________________</span></div>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-05-at-13.14.34-1024x949.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2023/01/Future-Genarali-banner.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2023/01/ReAssure-Post-3_adapt.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="all-bank">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2023/04/GRP-Print-02-jpg.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm">
+            <img src="https://www.andromedaloans.com/wp-content/uploads/2023/02/Bharti-axa-banner-1024x264.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+   
+ 
+
+</body>
+
+</html>
