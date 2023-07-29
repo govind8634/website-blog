@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaipur Code Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="fontawesome6.4/all.min.css">
+  <link rel="stylesheet" href="boootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+  <!-- navbar start -->
+  <section>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid nav-back-color">
+        <a href="home.html"><img class="logo" src="logo.webp" alt="logo"></a>
+        <button class="d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></button>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav align-items-center">
+
+            <li class="nav-item">
+              <a class="nav-link h-active" aria-current="page" href="home.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+
+            <div class="nav-item dropdown">
+              <button class="nav-link" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">SERVICES</button>
+              <ul class="dropdown-menu show" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item nav-home1" href="services-amazon.html">Amazon Account Management</a></li>
+                <li><a class="dropdown-item nav-home1" href="flipkart-services.html">Flipkart Account Management</a></li>
+                <li><a class="dropdown-item nav-home1" href="meesho-services.html">Meesho Account Management</a></li>
+                <li><a class="dropdown-item nav-home1" href="product-listing.html">Product Listing</a></li>
+                <li><a class="dropdown-item nav-home1" href="social-media.html">Social Media Marketing</a></li>
+                <li><a class="dropdown-item nav-home1" href="website-develop.html">Website Development</a></li>
+                <li><a class="dropdown-item nav-home1" href="google-ads.html">Google Ads</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item m-right10 d-none-840">
+              <a class="nav-social" href="javascript:;"><i class="fa-brands fa-facebook fa-xl" title="Facebook"></i></a>
+            </li>
+            <li class="nav-item m-right10 d-none-840">
+              <a class="nav-insta" href="javascript:;"><i class="fa-brands fa-instagram fa-xl"
+                  title="Instagram"></i></a>
+            </li>
+            <li class="nav-item d-none-840">
+              <a class="nav-social" href="javascript:;"><i class="fa-brands fa-linkedin fa-xl" title="LinkedIn"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+    <!-- collapse navbar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href="javascript:;"><img class="logo" src="logo.webp" width="150px"
+              alt="logo"></a></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-start-left">
+        <li><a class="nav-link h-active2" aria-current="page" href="home.html">HOME</a></li>
+        <a class="nav-link" href="about.html">ABOUT US</a>
+
+        <a class="nav-link btn-primary d-flex align-items-center" data-bs-toggle="collapse" href="#collapseExample"
+          role="button" aria-expanded="false" aria-controls="collapseExample">
+          SERVICES <i class="fa-solid fa-chevron-down fa-chevron-down-custom ms-auto"></i>
+        </a>
+        <div class="collapse collapse-drop576 collapse-l-height customClass" id="collapseExample">
+          <a class="dropdown-item slide-nav-item" href="services-amazon.html">Amazon Account Management</a>
+          <a class="dropdown-item slide-nav-item" href="flipkart-services.html">Amazon Account Management</a>
+          <a class="dropdown-item slide-nav-item" href="meesho-services.html">Meesho Account Management</a>
+          <a class="dropdown-item slide-nav-item" href="product-listing.html">Product Listing</a>
+          <a class="dropdown-item slide-nav-item" href="social-media.html">Social Media Marketing</a>
+          <a class="dropdown-item slide-nav-item" href="website-develop.html">Website Development</a>
+          <a class="dropdown-item slide-nav-item" href="google-ads.html">Google Ads</a>
+        </div>
+        <a class="nav-link" href="project.html">PROJECT</a>
+        <a class="nav-link" href="blog.html">BLOG</a>
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </div>
+    </div>
+    <!-- collapse navbar end -->
+    <!-- navbar end -->
+
+         <!-- about image -->
+            <div class="about-img">
+              <div class="opacity-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm py-sm-5 nav-item py-5 about-text">
+                            <h3>About Us</h3>
+                            <a href="home.html">Home </a><i class="fa-solid fa-chevron-right"></i>
+                            <span class="activeColor">About Us</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        <!-- about image end-->
+
+        <!-- main containt -->
+        <div class="container">
+            <div class="row pt-md-5 pt-3">
+              <div class="col-md col-12">
+                <div class="align-start-text">
+                    <h3>We are a leading company in this field, We provide specific solutions for every customer.</h3>
+                    <p>Jaipur Global Services opened its doors in 2014 with the goal of supporting the expansion of small businesses. As an Ecommerce Business Management Consultant Company in India with ISO 9001:2015 certification, we have more than 3,000 trusted customers worldwide. Over the years, we have adhered to the same guiding principle of maximizing client revenue.</p>
+                    <p>We are a one-stop-shop for all your online business requirements, Our services include Amazon and Flipkart Account Launch, Cataloging, Account Management, Advertising Creation and Optimization, Brand Protection, Performance Management, <a href="#">Seller Reinstatement experts in India, Accounting and Taxation services for Amazon,</a>GST Registration services for Rajasthan & Karnataka, Shipping Logistic Services, A+ Cataloging (EBC), <a href="#">Multi-Channel Warehouse Facility </a>and Everyday Operations Management and we are expert in the Operation and Supply Chain also.</p>
+                    <p>We Jaipur Global Services an Amazon Advertising Partner Network, Amazon Private Lebel Brand Sourcing Partner-Furniture, and Flipkart Ecommerce Ecosystem Partner also.</p>
+                    <p>Jaipur Global Services is an <a href="#"> SPN for Amazon </a>that provides assistance in developing and designing a healthy and functional web infrastructure to accelerate the online seller’s physical market presence. We do everything that triggers growth and maximizes the return on investment of our clients (Online Sellers). With an enthusiastic team of experts and professionals who have the best-applied knowledge, experience, and updates, we streamline processes that ensure best practices across the complete business development process.</p>
+                    <p>Our services include everything from ecommerce platform selection and design to inventory management, marketing, and sales optimization. We work closely with our clients to understand their unique needs and challenges, and we develop customized solutions that are tailored to their specific goals and objectives.</p>
+                    <p>What sets us apart is our commitment to results. We don’t just provide advice and guidance; we work closely with our clients to implement solutions that drive growth and profitability. We measure our success by our client’s success, and we are dedicated to helping them achieve their ecommerce goals. Our diverse customer base includes many successful businesses in furniture, food, cosmetics, and lifestyle. We ensure that your online and offline market strategies work in sync to reinforce and grow your business.</p>
+                </div>
+              </div>
+              <div class="col-md col-12">
+                <div class="about-containt-img">
+                    <img src="about main contant.jpg" class="w-100 mb-sm-4 mb-2" alt="about main container image">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <!-- main containt end -->
+
+  <!-- footer. -->
+  <div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-dark">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between py-3 text-white foot-top-color">
+        <!-- Left -->
+        <div class="container-fluid foot-social-icon">
+          <div>Social Networks:</div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <a href="javascript:;" class="top-foot-mright"><i class="fa-brands fa-facebook fa-xl"></i></a>
+          <a href="javascript:;"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href="javascript:;"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+        </div>
+        <!-- Right -->
+  </div>
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+  <div class="container-fluid text-center text-md-start">
+    <!-- Grid row -->
+    <div class="row foot-back-color">
+      <!-- Grid column -->
+      <div class="col-lg-3 col-sm-6 col-12 mb-4 text-left"><br>
+        <!-- Content -->
+        <h6 class="text-uppercase foot-main-head fw-bold">TEQBERTO</h6><br>
+        <H6 class="foot-main-head">NEWSLETTER</H6>
+        <p class="newsletter-p">
+          Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to
+          our newsletter.
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-sm-6 col-12 mb-4 text-left"><br>
+        <!-- Links -->
+        <h6 class="text-uppercase foot-main-head fw-bold">OUR SERVICES</h6><br>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Amazon Account management</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Flipkart Account management</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Meesho Account management</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Product Listing</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-sm-6 col-12 mb-4 text-left"><br>
+        <!-- Links -->
+        <h6 class="text-uppercase foot-main-head fw-bold">Useful links</h6><br>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Social Media Maketing</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Website Development</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Google Ads</a>
+        </p>
+        <p class="foot-head">
+          <a href="javascript:;" class="d-block">Help</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-sm-6 col-12 mb-md-0 mb-4 text-left cont-add-hover"><br>
+        <!-- Links -->
+        <h6 class="text-uppercase foot-main-head fw-bold">Contact</h6><br>
+        <p class="d-flex"><i class="newsletter-p fas fa-home mr-3"></i><span class="newsletter-p">EVERSHINE TOWER, 501-503, 5th, Amarpali Circle, Vaishali Nagar, Jaipur, Rajasthan 302021</span></p>
+      </p>
+        <p><i class="newsletter-p fa-solid fa-envelope fa-lg"></i><a href="mailto:email@example.com, secondemail@example.com">gmahawar940@gmail.com</a></p>
+        <p><i class="newsletter-p fa-solid fa-phone fa-lg"></i><a href="tel:+91-9079657643">+91- 9079657643</a></p>
+        <p><i class="newsletter-p fa-brands fa-whatsapp fa-lg"></i><a href="tel:+91-9079657643">  +91-9079657643</p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center py-3 foot-top-color">
+  <a class="Copyright-text" href="javascript:;">Jaipur Code © Copyright 2023. All Rights Reserved.</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+<!-- End of .footer -->
+
+
+
+        <!-- script for javascript -->
+        <script src="boootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="home.js"></script>
+
+        <!-- script javascript end -->
+
+
+</body>
+</html>
