@@ -1,0 +1,93 @@
+.main-div{
+    width: 1000px;
+    margin: auto;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.img-div{
+    width: 450px;
+}
+
+.img-div img{
+  width: 100%;
+}
+
+.upi-form{
+  padding: 20px;
+  border: 1px solid grey;
+  height: 150px;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+.upi-form input{
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+/* .drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  
+  .drop-container:hover {
+    background: #eee;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }*/
+
+  .float-right{ 
+    float: right;
+  }
+
+  button a{
+    color: white;
+    text-decoration: none;
+  }
+
+  span{
+    color: rgb(75, 75, 238);
+  }
+
+  @media screen and (max-width: 600px) {
+    .main-div{
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .second-btn{
+      display: block;
+      margin-top: 20px; 
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .drop-container{
+      width: 100%; 
+    }
+  }
